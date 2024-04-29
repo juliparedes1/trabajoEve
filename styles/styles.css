@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Contenedor {
+    margin-left: 0pt;
+
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 160.5pt;
+}
+
+td {
+    vertical-align: top;
+    padding: 5pt;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    border: solid #ffffff 1pt;
+    /* aca pone un br */
+}
+
+.sup {
+    margin-left: 0pt;
+}
+
+.tableInterior {
+    border: none;
+    border-collapse: collapse;
+}
+
+.tableInterior tr {
+    height: 98.25pt;
+}
+
+.td1 {
+    border-left: solid #ffffff 1pt;
+    border-right: solid #4197cb 1pt;
+    border-bottom: solid #4197cb 1pt;
+    border-top: solid #ffffff 1pt;
+    vertical-align: top;
+    padding: 5pt;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    /* otro br */
+}
+
+.td1 div {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.td1 span {
+    border: none;
+    display: inline-block;
+    overflow: hidden;
+    width: 164px;
+    height: 59px;
+}
+
+.td2 {
+
+    border-left: solid #4197cb 1pt;
+    border-right: solid #ffffff 1pt;
+    border-bottom: solid #4197cb 1pt;
+    border-top: solid #ffffff 1pt;
+    vertical-align: top;
+    padding: 5pt 5pt 5pt 5pt;
+    overflow: hidden;
+    overflow-wrap: break-word;
+
+}
+
+.p1 {
+    line-height: 1.2;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+.s1 {
+    font-size: 13.999999999999998pt;
+    font-family: Montserrat, sans-serif;
+    color: #4197cb;
+    background-color: transparent;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    margin-left: 15px;
+}
+
+.s2 {
+    font-size: 10pt;
+    font-family: Montserrat, sans-serif;
+    color: #4197cb;
+    background-color: transparent;
+    font-weight: 800;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    margin-left: 2px ;
+}
+
+.s3 {
+    font-size: 10pt;
+    font-family: Montserrat, sans-serif;
+    color: #717171;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+    margin-left: 15px;
+}
+
+.s4 {
+    font-size: 9pt;
+    font-family: Montserrat, sans-serif;
+    color: #717171;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+}
+
+.p3 {
+    line-height: 2.4px;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+.s5 {
+    font-size: 9pt;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    background-color: transparent;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+}
+
+.p4 {
+    line-height: 2.4px;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+.s6 {
+    font-size: 9pt;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-left: 0;
+}
+
+.p5{
+    line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;
+}
+
+.p5-s1{
+    font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;
+    margin-right: 25px
+}
+.p5-s1interno{
+    border: none; display: inline-block; overflow: hidden; width: 306px; height: 55px;
+
+}
+
+.p5-s2{
+    font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;
+    ;
+}
+a{
+    text-decoration: none;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width: 478px){
+    .p5{
+        display: flex;
+        margin-bottom: 0;
+    }
+    .p5 a img{
+        margin-bottom: 0;
+    }
+    .p5 a {
+        display: flex;
+        align-items: end;
+    }
+}
